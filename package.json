@@ -1,0 +1,17 @@
+{
+  "name": "hamna",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "compile:sass": "node-sass scss/style.scss css/style.css -w"
+  },
+  "author": "Hamna R.",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
